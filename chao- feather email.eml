@@ -1,0 +1,246 @@
+Delivered-To: jaclynholzmaier@gmail.com
+Received: by 2002:ab0:3c46:0:b0:937:2749:2b19 with SMTP id u6csp827401uaw;
+        Wed, 25 Feb 2026 07:18:14 -0800 (PST)
+X-Received: by 2002:a05:6820:4687:b0:662:c6ef:501 with SMTP id 006d021491bc7-679c44c13camr6194118eaf.37.1772032693998;
+        Wed, 25 Feb 2026 07:18:13 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1772032693; cv=none;
+        d=google.com; s=arc-20240605;
+        b=T8CCAC9QSNhE+luQZBlboELp1XmWT7avJzo97RPBJUgQoQqUGUEvtWYvhy35tGdnJI
+         m3R2r+eRHIYTWH9n8rRc0U9JbQUNiGozfCkeaJLQnebVG7XGh+S3jA86g0+1GFQ4H7rn
+         YlTmNtUb2GgVPBIbS9fh1HzgqmQLEOSYNjizsKTP0C8Aekhi2fA5BXyEE6GqQ3QKajbc
+         Sz/0R9ESpmmwysSwrbZTOEa+NRKczLX/RW5oONNtVBZd7K5CjR13eS08vTdYvHSCptEv
+         8jr8xYuXw+/GILahvkoOsvSZ71z9eF2CCCjXX2habrzaUSoYfHGqCGsyErI/QEW08RPJ
+         ymDg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=ui-outboundreport:to:references:message-id:subject:date
+         :mime-version:from:content-transfer-encoding;
+        bh=dml0HPL2YVZdiVIErdHWJ149ssjMelMm8nKdoov5vN8=;
+        fh=45dE3BjOoEw/y/6asuBOkHyxTI2rB5/nvjzmKwRYFlc=;
+        b=IWGc0g40XisfH0CN1yhssA9Syvs1u2uI9cSaBMQDLgi5FQTdniv9FXMtZ4Zqcbxxcf
+         4/UKERdb5LZhjK9EyyikoSSQK/JVXdHBs/+upVfYWzN6mCSS10xeKkeQoZxG2oQ78GAY
+         WLByivuqgetg+O4B3pyaRTt0di+bCuMUijYMrpz1jltyskxvJhRaaNMxAko4mwCopFxT
+         HneYEd/2r6pQFRjdclq8xQjMKL0tC2FVy7rTXNf1RXTsHzmlb9ln43q4s/o+Tf75JrJR
+         eA43QqbqwB2uRU+o+xMOwOqjTeHZdOhRAX9LuFK1L3Kz6/Krv6SULjtYJhOVpI8i5OEM
+         2bGA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of bchao@bchaolaw.com designates 74.208.4.197 as permitted sender) smtp.mailfrom=bchao@bchaolaw.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bchaolaw.com
+Return-Path: <bchao@bchaolaw.com>
+Received: from mout.perfora.net (mout.perfora.net. [74.208.4.197])
+        by mx.google.com with ESMTPS id 006d021491bc7-679c692a417si7173120eaf.93.2026.02.25.07.18.13
+        for <jaclynholzmaier@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 25 Feb 2026 07:18:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of bchao@bchaolaw.com designates 74.208.4.197 as permitted sender) client-ip=74.208.4.197;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bchao@bchaolaw.com designates 74.208.4.197 as permitted sender) smtp.mailfrom=bchao@bchaolaw.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bchaolaw.com
+Received: from client.hidden.invalid by mrelay.perfora.net (mreueus002
+ [74.208.5.2]) with ESMTPSA (Nemesis) id 0MCbo4-1w3Y6p1ISQ-000RiC; Wed, 25 Feb
+ 2026 16:18:13 +0100
+Content-Type: multipart/alternative; boundary=Apple-Mail-BC9197A3-3E05-4472-8F9F-BF0BD9D08521
+Content-Transfer-Encoding: 7bit
+From: Brendan Chao <bchao@bchaolaw.com>
+Mime-Version: 1.0 (1.0)
+Date: Wed, 25 Feb 2026 10:07:06 -0500
+Subject: Fwd: Jaclyn Holzmaier
+Message-Id: <F29D7F5B-E4E3-4927-81D7-420CB60589AB@bchaolaw.com>
+References: <CACTGKPU-XRQnFdPjW8Up2RXHv76cKHpo3MrvvBTGwPwmO_mmKg@mail.gmail.com>
+To: Jaclyn Holzmaier <jaclynholzmaier@gmail.com>,
+ Aquiana Arias-Callman <aquiana@bchaolaw.com>
+X-Mailer: iPhone Mail (23D127)
+X-Provags-ID: V03:K1:9/xMxkw9BZj8yVI34FynlnCiE+9dM0ut6eIC77kitaFZc7i/mH1
+ csDo3lIUXiyZErjg6bye2r8khFJyxif4to0TwXIntpP+2FYKS4bfnbhQB/u8LIjj7msB8PN
+ h5zFPP0F6gAOXVqrpwfBN7Eh4Y38zVQFm05TGSDBU3XdRFqpyP+Hch0tn+V8oBA1l2/1v5b
+ a4WXiXop04Q3uV4NOdFyQ==
+X-Spam-Flag: NO
+UI-OutboundReport: notjunk:1;M01:P0:wF8pNRfEuEs=;iqsN4eUBZZ6QsUXV4fRSy7nB9o2
+ cZ3JLaVcWxxP0qdbbn/INQeODKFfw2SJfjCkBi0wEF7GSlQuCghrovNtN+CInDG6+NsdFF85O
+ f9FNe0+LQLu/5gpepDbx6IIcqAeb/RwzXOcUhjMoXO6CTBNXboyutVbO/WfDlsHgIiVQxhLzG
+ mej40AMltq95/KeJftpuzydUf4gQ46NvjM5maWQaFBURGPf3oEDnNaTTUNeBYWq2BCtx6rdqp
+ fA+7jgxeRNMS/VWQkHna5ykB2WWPdoimBHti5mUG1vqWTTJiF/hG/hA5pzvRAzlmcVkq60oDT
+ kJP+A0XY1r3670uUP/sqbRK6V6ddZKy0ZpygfonJVxlWdiLUU1O4Y+PRzAs/rGKQ3NOrGLlKE
+ 5gSwqPYGQTw+tH2yP1Jmsc2LaHFVBZi5Qmwlpog4Wq1PN7Z4GbBpJDwiyyghIPAjBu8X5gDru
+ cgxE93TyrpcYFgdf9sNOeTbROWE6EAEYSlYRQgLWZ80XTPMocPM1ADGfYEG14H9Y11Znt9nPh
+ jEVBiH81Z22JeUZ83gqAmJ2qHCPCaeWsKJPucSWZm26xi7q47lgUcyCSt7L1mvseuxZ8k1DCv
+ BM3Sg5R/4VGQ0QbEOJuGWWJwfNmposKCxCMBTmyPHWKd3PDJF2HTbVsE7By5cpSoEALxreq6N
+ 0/0yE7Fyxip7RLf0eMz2ugYPhjnufxnc9Gr7VglbZ9J/6hMgTJTLiIYRqXRb8/kQUskZZ/Re2
+ AKfOr/qH/4kCTkMMTcCeojoRNpd6MLHO4NU37zZGdQQDYHUF7EChsj9Kv1jXumGUKfzMqt6oc
+ AhrNgXu6P7SOqobMOAFN0U7mFlSrRG+o91VPQvPB+WvWU9m069+IsjRLy2fCVGyo2U/35kINX
+ z5zmfJpxz/l/umLsDWn86TzFIBnXhj9VmvQlVTVE1hhKM8IFqbidM1NwRetAOUMScHqBbIZjv
+ ur89A6MEplu2NhhW9u/aMlVZ0/1wQLwXYkDMzpRRgjwcIvbKvLBHz5ZL0xL16navGFThfxr0Y
+ WCJqSyVnUap2Gj/EFdz+C+KlTgH8Z6rzpTEAbhsAYjiEv/XcdRDnV/rU14+HCxTcgJjOvkmzl
+ fa9y2QSxBcmTS7gjhScSgwnJ5V7/rLfGF15bBF8t9V5M5GP/4af46cpP2GTKFxM+ZxArFenpl
+ zR3mwX+fPCZQh7HjkaytNI5jDBkilGbaOFrlSl7V/5ojE6SGsnpJCF/1JoyGuM7/JTySOuU2u
+ lkCLgi4WmTfvSAtf0V/XiNFxh/rJfQLsGITD9xnC0U9w0uonz8jf/JWF1I0Dv3+EAOr2c9FNP
+ MAC6ETBXCgziW4pdZ/fgXmh8fcGe/6smeRIPHyh4pf5GnGPq34jXvUV+1GTYnupV0gOr865JZ
+ ythCk9HzMQ3RPeDQxPav7z0DYE+eHfdz8Y3xsjUdMpgljt0Mv7l0/51rlVRCdWh+su3cddZNt
+ udtV1WNf+7AQAf6w6UW4yHp8AYXeVeRfncYY/pO7ouzqgJ1BoXBcaWXVK5tZ6MWPcZiKnw8cv
+ 41Ms522kRryW350GttICpj7IB/nBVGoDeJSVEHOggvdA0EzeuBo6x8DT2XK/edX9TELcWJanG
+ Eo90lm1NuelV5aRIP2cOE1llNKcM3UjAGRfGkqQe1oHZWtIhUPV8GMhnllu2uJccG7BWIslh7
+ AB7wjni6AwMcryDE+TS5j5BbUc4QXE5HMXCSEChOjpyWoGxhHrRny7OsALm5GeO8PIDkR2fNh
+ eSIF0a/B5L9lRJAtqyCXLsJVFO0D+ynabOzXdmXbppc4GmOTfqEqXC/YjlS+kzFzPDEo0dqlw
+ yd+F
+
+
+--Apple-Mail-BC9197A3-3E05-4472-8F9F-BF0BD9D08521
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html class=3D"apple-mail-supports-explicit-dark-mode"><head><meta http-equi=
+v=3D"content-type" content=3D"text/html; charset=3Dutf-8"></head><body dir=3D=
+"auto">Good morning, Jackie. FYI, this email came in late yesterday afternoo=
+n.<br id=3D"lineBreakAtBeginningOfSignature"><div dir=3D"ltr">Sent from my i=
+Phone</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><block=
+quote type=3D"cite"><div dir=3D"ltr"><b>From:</b> David Feather &lt;dfeather=
+@featherlawfirm.com&gt;<br><b>Date:</b> February 24, 2026 at 5:28:09=E2=80=AF=
+PM EST<br><b>To:</b> bchao@bchaolaw.com<br><b>Cc:</b> aquiana@bchaolaw.com<b=
+r><b>Subject:</b> <b>Re: Jaclyn Holzmaier</b><br><br></div></blockquote><blo=
+ckquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<div dir=3D"ltr">Brendan:<di=
+v><br></div><div>Obviously, the offer of $17,500 still stands.</div><div><br=
+></div><div>Very truly yours,&nbsp;</div><div><br></div><div>David S. Feathe=
+r</div></div><br><div class=3D"gmail_quote gmail_quote_container"><div dir=3D=
+"ltr" class=3D"gmail_attr">On Wed, Feb 18, 2026 at 11:55=E2=80=AFAM David Fe=
+ather &lt;<a href=3D"mailto:dfeather@featherlawfirm.com">dfeather@featherlaw=
+firm.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"=
+margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left=
+:1ex"><div dir=3D"ltr">Brendan:<div><br></div><div>I did become aware of tha=
+t while I was away last week.&nbsp; As you may recall, I returned to the off=
+ice today.</div><div><br></div><div>I do not represent Plaintiff(s) in that m=
+atter.</div><div><br></div><div>I do represent Sendsational Inc. and Mr. Ros=
+encrans with regard to your client's allegations against them/him, and am au=
+thorized to accept service on their behalf.</div><div><br></div><div>Very tr=
+uly yours,&nbsp;</div><div><br></div><div>David S. Feather</div></div><br><d=
+iv class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Wed, Feb 1=
+8, 2026 at 11:25=E2=80=AFAM &lt;<a href=3D"mailto:bchao@bchaolaw.com" target=
+=3D"_blank">bchao@bchaolaw.com</a>&gt; wrote:<br></div><blockquote class=3D"=
+gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204=
+,204,204);padding-left:1ex"><div><div lang=3D"EN-US"><div><p class=3D"MsoNor=
+mal">David, are you aware that your client filed an action against my client=
+ last week? Index No. 603286/2026. Your client is being represented by Joshu=
+a P. Blumberg in Amityville. She has not yet been served.<u></u><u></u></p><=
+p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p><p class=3D"MsoNormal">Obvious=
+ly, we have nothing further to discuss on the sexual harassment case. Please=
+ let me know whether you still represent Rosencrans, and if you are authoriz=
+ed to accept service of process. Thank you.<u></u><u></u></p><p class=3D"Mso=
+Normal"><u></u>&nbsp;<u></u></p><p class=3D"MsoNormal"><u></u>&nbsp;<u></u><=
+/p><p class=3D"MsoNormal"><span style=3D"font-size:22pt;font-family:&quot;Ba=
+skerville Old Face&quot;,serif">B</span><span style=3D"font-size:20pt;font-f=
+amily:&quot;Baskerville Old Face&quot;,serif">rendan</span><span style=3D"fo=
+nt-size:22pt;font-family:&quot;Baskerville Old Face&quot;,serif"> C</span><s=
+pan style=3D"font-size:20pt;font-family:&quot;Baskerville Old Face&quot;,ser=
+if">hao</span><span style=3D"font-size:22pt;font-family:&quot;Baskerville Ol=
+d Face&quot;,serif"><u></u><u></u></span></p><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:14pt;font-family:Garamond,serif">Attorney &amp; Counsellor a=
+t Law<u></u><u></u></span></p><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:13pt;font-family:Garamond,serif"><u></u>&nbsp;<u></u></span></p><p class=3D=
+"MsoNormal"><span style=3D"font-size:13pt;font-family:Garamond,serif">50 Mer=
+rick Road, Suite 200<u></u><u></u></span></p><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:13pt;font-family:Garamond,serif">Rockville Centre, N.Y. 115=
+70<u></u><u></u></span></p><p class=3D"MsoNormal"><span style=3D"font-size:1=
+3pt;font-family:Garamond,serif">Tel. (516) 466-2033<u></u><u></u></span></p>=
+<p class=3D"MsoNormal"><span style=3D"font-size:13pt;font-family:Garamond,se=
+rif">Fax&nbsp; (516) 466-2007<u></u><u></u></span></p><p class=3D"MsoNormal"=
+><span style=3D"font-size:11pt;font-family:Calibri,sans-serif"><u></u>&nbsp;=
+<u></u></span></p><p class=3D"MsoNormal"><span style=3D"font-size:13pt;font-=
+family:Garamond,serif"><a href=3D"http://www.bchaolaw.com" target=3D"_blank"=
+><span style=3D"color:blue">www.bchaolaw.com</span></a><u></u><u></u></span>=
+</p><p class=3D"MsoNormal"><span style=3D"font-size:11pt;font-family:&quot;C=
+ambria Math&quot;,serif"><u></u>&nbsp;<u></u></span></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:11pt">This message, including attachments, is co=
+nfidential and may contain information protected by the attorney-client priv=
+ilege or work-product doctrine. If you are not the addressee, any disclosure=
+, copying, distribution, or use of the contents of this message is prohibite=
+d. If you have received this email in error, please destroy it and notify me=
+ immediately. </span><span style=3D"font-size:11pt;font-family:Calibri,sans-=
+serif"><u></u><u></u></span></p><p class=3D"MsoNormal"><u></u>&nbsp;<u></u><=
+/p><p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p></div></div></div></blockq=
+uote></div><div><br clear=3D"all"></div><div><br></div><span class=3D"gmail_=
+signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signature"><=
+div dir=3D"ltr"><div><div dir=3D"ltr"><div><p></p><p></p><p style=3D"margin-=
+bottom:12pt">David S. Feather, Esq.<span style=3D"font-size:10pt;font-family=
+:Tahoma,sans-serif"><br></span>Feather Law Firm, P.C.<span style=3D"font-siz=
+e:10pt;font-family:Tahoma,sans-serif"><br>
+</span>666 Old Country
+Road<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br>
+</span>Suite 509*<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif=
+"><br>
+</span>Garden City, New
+York 11530<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br>
+</span>(ph)
+516-745-9000<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br=
+>
+</span>(fax)
+516-908-3930<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br=
+>
+</span><a href=3D"http://www.featherlawfirm.com/" target=3D"_blank">www.Feat=
+herLawFirm.com</a></p><p style=3D"margin-bottom:12pt"><b>*PLEASE NOTE NEW SU=
+ITE NUMBER.</b></p><p style=3D"margin-bottom:12pt"><font face=3D"Tahoma, san=
+s-serif"><span style=3D"font-size:10pt">
+&nbsp;</span></font><br>This e-mail
+message from Feather Law Firm, P.C. is intended only for named
+recipients.&nbsp; &nbsp;It contains information that may be confidential,
+privileged, attorney work product, or otherwise exempt from disclosure under=
+
+applicable law.&nbsp; &nbsp;If you have received this message in error, are n=
+ot
+a named recipient, or are not the employee or agent responsible for deliveri=
+ng
+this message to a named recipient, be advised that any review, disclosure, u=
+se,
+dissemination, distribution, or reproduction of this message or its contents=
+ is
+strictly prohibited. Please notify us immediately at 516-745-9000 or at&nbsp=
+;<a href=3D"mailto:dfeather@featherlawfirm.com" target=3D"_blank">dfeather@f=
+eatherlawfirm.com</a>&nbsp;that
+you have received this message in error, and delete the message.&nbsp; Thank=
+
+you. &nbsp;<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"></sp=
+an></p><p></p><p></p></div></div></div></div></div>
+</blockquote></div><div><br clear=3D"all"></div><div><br></div><span class=3D=
+"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signa=
+ture"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><p></p><p></p><p style=3D"=
+margin-bottom:12pt">David S. Feather, Esq.<span style=3D"font-size:10pt;font=
+-family:Tahoma,sans-serif"><br></span>Feather Law Firm, P.C.<span style=3D"f=
+ont-size:10pt;font-family:Tahoma,sans-serif"><br>
+</span>666 Old Country
+Road<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br>
+</span>Suite 509*<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif=
+"><br>
+</span>Garden City, New
+York 11530<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br>
+</span>(ph)
+516-745-9000<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br=
+>
+</span>(fax)
+516-908-3930<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"><br=
+>
+</span><a href=3D"http://www.featherlawfirm.com/" target=3D"_blank">www.Feat=
+herLawFirm.com</a></p><p style=3D"margin-bottom:12pt"><b>*PLEASE NOTE NEW SU=
+ITE NUMBER.</b></p><p style=3D"margin-bottom:12pt"><font face=3D"Tahoma, san=
+s-serif"><span style=3D"font-size:10pt">
+&nbsp;</span></font><br>This e-mail
+message from Feather Law Firm, P.C. is intended only for named
+recipients.&nbsp; &nbsp;It contains information that may be confidential,
+privileged, attorney work product, or otherwise exempt from disclosure under=
+
+applicable law.&nbsp; &nbsp;If you have received this message in error, are n=
+ot
+a named recipient, or are not the employee or agent responsible for deliveri=
+ng
+this message to a named recipient, be advised that any review, disclosure, u=
+se,
+dissemination, distribution, or reproduction of this message or its contents=
+ is
+strictly prohibited. Please notify us immediately at 516-745-9000 or at&nbsp=
+;<a href=3D"mailto:dfeather@featherlawfirm.com" target=3D"_blank">dfeather@f=
+eatherlawfirm.com</a>&nbsp;that
+you have received this message in error, and delete the message.&nbsp; Thank=
+
+you. &nbsp;<span style=3D"font-size:10pt;font-family:Tahoma,sans-serif"></sp=
+an></p><p></p><p></p></div></div></div></div></div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-BC9197A3-3E05-4472-8F9F-BF0BD9D08521--
